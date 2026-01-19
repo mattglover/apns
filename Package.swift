@@ -11,7 +11,7 @@ let package = Package(
     .library(name: "VaporAPNS", targets: ["VaporAPNS"])
   ],
   dependencies: [
-    .package(url: "https://github.com/mattglover/APNSwift", branch: "fix/broadcast-push"),
+    .package(url: "https://github.com/mattglover/APNSwift", branch: "WIP"),
     .package(url: "https://github.com/vapor/vapor.git", from: "4.110.1"),
   ],
   targets: [
